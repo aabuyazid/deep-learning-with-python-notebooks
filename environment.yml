@@ -1,0 +1,22 @@
+name: deep-course
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - scikit-learn
+  - Pillow
+  - tqdm
+  - tensorboard
+  - matplotlib
+  - seaborn
+  - albumentations
+  - wandb
+  - mlflow
+  - jupyter
+  - ipython
+  - pip
+  - librosa
+  - pip:
+    - tensorflow-gpu==2.6.0
