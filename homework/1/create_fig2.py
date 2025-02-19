@@ -59,7 +59,7 @@ plt.figure(figsize=(8, 6))  # Set the figure size
 plt.plot(num_layers, accuracy, marker='o', linestyle='-', color='b')
 
 # Adding title and labels
-plt.title("Number of Layers vs Accuracy")
+plt.title("Using NaiveDense/NaiveSequential from Ch 2")
 plt.xlabel("# of Layers")  # x-axis label with units
 plt.ylabel("Accuracy")  # y-axis label
 
